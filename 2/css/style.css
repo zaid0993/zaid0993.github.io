@@ -354,7 +354,8 @@ h6,
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item * {
-    color: #FFFFFF !important;
+    /* color: #FFFFFF !important; */
+	 color: #ea9999 !important;
 }
 
 .testimonial-carousel .owl-nav {
