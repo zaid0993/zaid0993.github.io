@@ -1,14 +1,11 @@
-/********** Template CSS **********/
+/**********  CSS **********/
 :root {
     --primary: #EAA636;
     --secondary: #545454;
     --light: #FDF5EB;
     --dark: #1E1916;
 }
-body {
-  background: #0c0b09;
-  color: #fff;
-}
+
 h4,
 h5,
 h6,
