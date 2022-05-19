@@ -1,13 +1,9 @@
 /********** Template CSS **********/
 :root {
-    /* --primary: #EAA636; */
-	--primary: #e06666;
-    /* --secondary: #545454; */
-	--secondary: #c27ba0;
-    /* --light: #FDF5EB; */
-	--light: #6fa8dc;
-    /* --dark: #1E1916; */
-	--dark: #073763;
+    --primary: #EAA636;
+    --secondary: #545454;
+    --light: #FDF5EB;
+    --dark: #1E1916;
 }
 body {
   background: #0c0b09;
@@ -63,8 +59,7 @@ h6,
 }
 
 .btn.btn-primary {
-    /* color: #FFFFFF; */
-	 color: #ea9999;
+    color: #FFFFFF;
 }
 
 .btn-square {
@@ -197,8 +192,7 @@ h6,
     height: 100%;
     top: 0;
     left: 0;
-    /* background: #FFFFFF; */
-	 background: #ea9999;
+    background: #FFFFFF;
     transform: rotate(45deg);
 }
 
@@ -234,9 +228,7 @@ h6,
 
 .fact-item:hover {
     margin-top: -10px;
-    /* background: #FFFFFF !important; */
-	background: #ea9999 !important;
-
+    background: #FFFFFF !important;
     box-shadow: 0 0 45px rgba(0, 0, 0, .07);
 }
 
@@ -357,8 +349,7 @@ h6,
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item * {
-    /* color: #FFFFFF !important; */
-	 color: #ea9999 !important;
+    color: #FFFFFF !important;
 }
 
 .testimonial-carousel .owl-nav {
@@ -417,8 +408,7 @@ h6,
 }
 
 .copyright {
-    /* background: #111111; */
-	background: #4c1130;
+    background: #111111;
 }
 
 .copyright a {
