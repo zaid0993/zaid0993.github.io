@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Vascos Co</title>
+    <title>Zaid Restaurant</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -19,7 +19,7 @@
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-
+    <!-- <link rel="stylesheet" href="./bootstrap-master/style.css"/> -->
     <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
@@ -31,70 +31,69 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body>
+<body >
     <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-grow text-primary" role="status"></div>
+        <div class="spinner-grow text-primary "  role="status"></div>
     </div>
-    <!-- Spinner End -->
-
 
     <!-- Topbar Start -->
-    <div class="container-fluid top-bar bg-dark text-light px-0 wow fadeIn" data-wow-delay="0.1s">
-        <div class="row gx-0 align-items-center d-none d-lg-flex">
+    <div id="Home" class="container-fluid top-bar bg-dark text-light px-0 wow fadeIn" data-wow-delay="0.1s">
+        <div class="row gx-0 align-items-center  d-lg-flex">
             <div class="col-lg-6 px-5 text-start">
-                <ol class="breadcrumb mb-0">
-                    <li class="breadcrumb-item"><a class="small text-light" href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a class="small text-light" href="#">About</a></li>
-                    <li class="breadcrumb-item"><a class="small text-light" href="#">Services</a></li>
-                    <li class="breadcrumb-item"><a class="small text-light" href="#">Products</a></li>
-                </ol>
-            </div>
-            <div class="col-lg-6 px-5 text-end">
-                <small>Follow us:</small>
-                <div class="h-100 d-inline-flex align-items-center">
-                    <a class="btn-lg-square text-primary border-end rounded-0" href=""><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn-lg-square text-primary border-end rounded-0" href=""><i class="fab fa-twitter"></i></a>
-                    <a class="btn-lg-square text-primary border-end rounded-0" href=""><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn-lg-square text-primary pe-0" href=""><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Topbar End -->
 
+                <div class="breadcrumb mb-0 wow fadeIn" data-wow-delay="0.1s">
+                <!-- <button class="current-lang" id="arabic" ><img class="lang-flag" src="https://cdn2.iconfinder.com/data/icons/world-flag-icons/128/Flag_of_United_Kingdom.png"/> -->
+                <button class="current-lang" id="arabic" ><img class="lang-flag" src="arabic.png" alt="عربي" width="20" height="20"/>
+                    <p class="lang-text"></p>
+                  </button>
+                <!-- <button class="current-lang" id="english"><img class="lang-flag" src="https://cdn2.iconfinder.com/data/icons/world-flag-icons/128/Flag_of_Spain.png"/> -->
+                <button class="current-lang" id="english" ><img class="lang-flag" src="english.png" alt="ُEnglish" width="17" height="18"/>
+                      <p class="lang-text"></p>
+                    </button>
+                    <div class="col-lg-6 px-5 text-end" dir="auto" >
+                        <small id="Follow_us" >Follow us:</small>
+                        <div class="h-100 d-inline-flex align-items-center">
+                            <a class="btn-lg-square text-primary  rounded-0" href="https://www.facebook.com/zaid.ite.12/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn-lg-square text-primary pe-0" href="https://www.facebook.com/zaid.ite.12/" target="_blank"><i class="fab fa-instagram"></i></a>
+                      </div>
+                       
+                    </div>
+                    
+                </div> 
+                       
+                      <!-- </div> -->
+                <!-- End -->
+                
+            </div>
+</div>
+        </div>
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
-        <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
-            <h1 class="text-primary m-0">Vascos Co</h1>
-        </a>
+        <small  class="navbar-brand ms-4 ms-lg-0">
+            <h1 class="text-primary m-0">Zaid Restaurant</h1>
+        </small>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav mx-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="about.html" class="nav-item nav-link">About</a>
-                <a href="service.html" class="nav-item nav-link">Services</a>
-                <a href="product.html" class="nav-item nav-link">Products</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                    <div class="dropdown-menu m-0">
-                        <a href="team.html" class="dropdown-item">Our Team</a>
-                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                        <a href="404.html" class="dropdown-item">404 Page</a>
-                    </div>
-                </div>
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            <div class="navbar-nav mx-auto p-4 p-lg-0" dir="auto">
+                <a id="home" href="#Home" class="nav-item nav-link active">Home</a>
+                <a id="about" href="#About" class="nav-item nav-link active">About</a>
+                <a id="products" href="#Products" class="nav-item nav-link active">Products</a>
+                <a id="catering1" href="#Catering" class="nav-item nav-link active">Catering</a>
+
+                <a id="services" href="#Services" class="nav-item nav-link active">Services</a>
+                <a id="contact" href="#Contact" class="nav-item nav-link active">Contact</a>
             </div>
             <div class=" d-none d-lg-flex">
                 <div class="flex-shrink-0 btn-lg-square border border-light rounded-circle">
                     <i class="fa fa-phone text-primary"></i>
                 </div>
                 <div class="ps-3">
-                    <small class="text-primary mb-0">Call Us</small>
-                    <p class="text-light fs-5 mb-0">000000000</p>
+                    <small id="Call_Us" class="text-primary mb-0">Call Us</small>
+                    <p class="text-light fs-5 mb-0">+971 50 4686051</p>
                 </div>
             </div>
         </div>
@@ -111,10 +110,7 @@
                     <div class="container">
                         <div class="row justify-content-start">
                             <div class="col-lg-8">
-                                <p class="text-primary text-uppercase fw-bold mb-2">// The Best Food</p>
-                                <h1 class="display-1 text-light mb-4 animated slideInDown">We Vascos Co With Passion</h1>
-                                <p class="text-light fs-5 mb-4 pb-3">Vascos Co.</p>
-                                <a href="" class="btn btn-primary rounded-pill py-3 px-5">Read More</a>
+                                <h3 id="taste_of_the_world1"  style="font-size: 30px;" class="display-1 text-primary mb-4 animated slideInDown text-uppercase">TASTE OF THE WORLD1</h3>
                             </div>
                         </div>
                     </div>
@@ -125,11 +121,8 @@
                 <div class="owl-carousel-inner">
                     <div class="container">
                         <div class="row justify-content-start">
-                            <div class="col-lg-8">
-                                <p class="text-primary text-uppercase fw-bold mb-2">// Vascos Co</p>
-                                <h1 class="display-1 text-light mb-4 animated slideInDown">We Vascos Co With Passion</h1>
-                                <p class="text-light fs-5 mb-4 pb-3">Vascos Co.</p>
-                                <a href="" class="btn btn-primary rounded-pill py-3 px-5">Read More</a>
+                            <div class="col-lg-8" style="font-size: 14px;" >
+                                <h3 id="taste_of_the_world2" style="font-size: 30px;" class="display-1 text-primary mb-4 animated slideInDown text-uppercase">TASTE OF THE WORLD2</h3>
                             </div>
                         </div>
                     </div>
@@ -141,10 +134,8 @@
                     <div class="container">
                         <div class="row justify-content-start">
                             <div class="col-lg-8">
-                                <p class="text-primary text-uppercase fw-bold mb-2">// Vascos Co</p>
-                                <h1 class="display-1 text-light mb-4 animated slideInDown">We Vascos Co With Passion</h1>
-                                <p class="text-light fs-5 mb-4 pb-3">Vascos Co.</p>
-                                <a href="" class="btn btn-primary rounded-pill py-3 px-5">Read More</a>
+                                <!-- <p class="text-primary text-uppercase fw-bold mb-2">// Zaid Restaurant</p> -->
+                                <h3 id="taste_of_the_world3" style="font-size: 30px;" class="display-1 text-primary mb-4 animated slideInDown text-uppercase">TASTE OF THE WORLD3</h3>
                             </div>
                         </div>
                     </div>
@@ -162,29 +153,29 @@
                 <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.1s">
                     <div class="fact-item bg-light rounded text-center h-100 p-5">
                         <i class="fa fa-certificate fa-4x text-primary mb-4"></i>
-                        <p class="mb-2">Years Experience</p>
-                        <h1 class="display-5 mb-0" data-toggle="counter-up">0</h1>
+                        <p id="years_experience" class="mb-2">Years Experience</p>
+                        <h1 class="display-5 mb-0" data-toggle="counter-up">25</h1>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.3s">
                     <div class="fact-item bg-light rounded text-center h-100 p-5">
                         <i class="fa fa-users fa-4x text-primary mb-4"></i>
-                        <p class="mb-2">Skilled Professionals</p>
-                        <h1 class="display-5 mb-0" data-toggle="counter-up">0</h1>
+                        <p id="skilled_professionals" class="mb-2">Skilled Professionals</p>
+                        <h1 class="display-5 mb-0" data-toggle="counter-up">200</h1>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.5s">
                     <div class="fact-item bg-light rounded text-center h-100 p-5">
                         <i class="fa fa-bread-slice fa-4x text-primary mb-4"></i>
-                        <p class="mb-2">Total Products</p>
-                        <h1 class="display-5 mb-0" data-toggle="counter-up">0</h1>
+                        <p id="total_products" class="mb-2">Total Products</p>
+                        <h1 class="display-5 mb-0" data-toggle="counter-up">+500</h1>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.7s">
                     <div class="fact-item bg-light rounded text-center h-100 p-5">
                         <i class="fa fa-cart-plus fa-4x text-primary mb-4"></i>
-                        <p class="mb-2">Order Everyday</p>
-                        <h1 class="display-5 mb-0" data-toggle="counter-up">0</h1>
+                        <p id="order_everyday" class="mb-2">Order Everyday</p>
+                        <h1 class="display-5 mb-0" data-toggle="counter-up">1500</h1>
                     </div>
                 </div>
             </div>
@@ -194,11 +185,11 @@
 
 
     <!-- About Start -->
-    <div class="container-xxl py-6">
+    <div id="About" class="container-xxl py-6 " >
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="row img-twice position-relative h-100">
+                    <div class="row img-twice position-relative h-50">
                         <div class="col-6">
                             <img class="img-fluid rounded" src="img/about-1.jpg" alt="">
                         </div>
@@ -206,29 +197,14 @@
                             <img class="img-fluid rounded" src="img/about-2.jpg" alt="">
                         </div>
                     </div>
-                </div>
+                </div> 
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="h-100">
-                        <p class="text-primary text-uppercase mb-2">// About Us</p>
-                        <h1 class="display-6 mb-4">We Vascos Co Every Item From The Core Of Our Hearts</h1>
-                        <p>Vascos Co</p>
-                        <p>Vascos Co</p>
-                        <div class="row g-2 mb-4">
-                            <div class="col-sm-6">
-                                <i class="fa fa-check text-primary me-2"></i>Quality Products
-                            </div>
-                            <div class="col-sm-6">
-                                <i class="fa fa-check text-primary me-2"></i>Custom Products
-                            </div>
-                            <div class="col-sm-6">
-                                <i class="fa fa-check text-primary me-2"></i>Online Order
-                            </div>
-                            <div class="col-sm-6">
-                                <i class="fa fa-check text-primary me-2"></i>Home Delivery
-                            </div>
-                        </div>
-                        <a class="btn btn-primary rounded-pill py-3 px-5" href="">Read More</a>
-                    </div>
+                        <p id="title_about_us" class="text-primary text-uppercase mb-2 text-center" style="font-size:3vw "  dir="auto"‎>// About Us</p>
+                        <h2 id="about_us" class="mb-0" style="color: rgb(255, 255, 255);font-family: Helvetica Neue,Helvetica,Arial,sans-serif; font-weight: normal;" dir="auto">  </h2>     
+                        <h2 id="about_us1" class="mb-0 text-primary" style=" font-family: Helvetica Neue,Helvetica,Arial,sans-serif; font-weight:400;" dir="auto"></h2>
+                            
+                   </div>
                 </div>
             </div>
         </div>
@@ -237,55 +213,40 @@
 
 
     <!-- Product Start -->
-    <div class="container-xxl bg-light my-6 py-6 pt-0">
+    <div id="Products" class="container-xxl py-6 ">
         <div class="container">
-            <!-- <div class="bg-primary text-light rounded-bottom p-5 my-6 mt-0 wow fadeInUp" data-wow-delay="0.1s"> -->
-                <!-- <div class="row g-4 align-items-center"> -->
-                    <!-- <div class="col-lg-6"> -->
-                        <!-- <h1 class="display-4 text-light mb-0">VASCOSUAE</h1> -->
-                    <!-- </div> -->
-                    <!-- <div class="col-lg-6 text-lg-end"> -->
-                        <!-- <div class="d-inline-flex align-items-center text-start"> -->
-                            <!-- <i class="fa fa-phone-alt fa-4x flex-shrink-0"></i> -->
-                            <!-- <div class="ms-4"> -->
-                                <!-- <p class="fs-5 fw-bold mb-0">Call Us</p> -->
-                                <!-- <p class="fs-1 fw-bold mb-0">000000000</p> -->
-                            <!-- </div> -->
-                        <!-- </div> -->
-                    <!-- </div> -->
-                <!-- </div> -->
-            <!-- </div> -->
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <p class="text-primary text-uppercase mb-2">// Vascos Co Products</p>
-                <h1 class="display-6 mb-4">Explore The Categories Of Our Vascos Co Products</h1>
+                <p id="Vascos_Co_Products" class="text-primary text-uppercase mb-2" style="font-size:3vw" dir="auto">// Zaid Restaurant Products</p>
+                <h2 id="explore_the_categories" class="mb-0" style="color: #ffff;font-family: Helvetica Neue,Helvetica,Arial,sans-serif; font-weight: normal;" dir="auto">Explore The Categories Of Our Zaid Restaurant Products</h2>
+
             </div>
-            <div class="row g-4" >
+            <div  class="row g-4" >
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="product-item d-flex flex-column bg-white rounded overflow-hidden h-100">
                         <div class="text-center p-4">
-                            <div class="d-inline-block border border-primary rounded-pill px-3 mb-3"></div>
-                            <h3 class="mb-3">Cookies</h3>
-                            <span>Vascos Co</span>
+                            <div class="d-inline-block  rounded-pill px-3 mb-3"></div>
+                            <h3 id="outdoor_catering" class="mb-3" dir="auto">Outdoor Catering</h3>
+                            <!-- <span>Zaid Restaurant</span> -->
                         </div>
                         <div class="position-relative mt-auto">
-                            <img class="img-fluid" src="img/product-1.jpg" alt="">
+                            <img class="img-fluid" src="img/product-1.jpg">
                             <div class="product-overlay">
-                                <a class="btn btn-lg-square btn-outline-light rounded-circle" href=""><i class="fa fa-eye text-primary"></i></a>
+                                <a class=" btn-outline-light rounded-circle"><i class="text-primary"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="product-item d-flex flex-column bg-white rounded overflow-hidden h-100">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class=" product-item d-flex flex-column bg-light rounded overflow-hidden h-100">
                         <div class="text-center p-4">
-                            <div class="d-inline-block border border-primary rounded-pill pt-1 px-3 mb-3"></div>
-                            <h3 class="mb-3">Cake</h3>
-                            <span>Vascos Co</span>
+                            <div class= " d-inline-block t text-center rounded-pill pt-1 px-3 mb-3"></div>
+                            <h3 id="buffet_lunch" class="mb-3" dir="auto">Buffet Lunch</h3>
+                            <!-- <span>Zaid Restaurant</span> -->
                         </div>
                         <div class="position-relative mt-auto">
-                            <img class="img-fluid" src="img/product-2.jpg" alt="">
+                            <img class="img-fluid" src="img/product-2.jpg ">
                             <div class="product-overlay">
-                                <a class="btn btn-lg-square btn-outline-light rounded-circle" href=""><i class="fa fa-eye text-primary"></i></a>
+                                <a class=" btn-outline-light rounded-circle" ><i class="text-primary"></i></a>
                             </div>
                         </div>
                     </div>
@@ -293,14 +254,14 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="product-item d-flex flex-column bg-white rounded overflow-hidden h-100">
                         <div class="text-center p-4">
-                            <div class="d-inline-block border border-primary rounded-pill pt-1 px-3 mb-3"></div>
-                            <h4 class="mb-3">meals</h4>
-                            <span>Vascos Co</span>
+                            <div class="d-inline-block linear-gradient linear-gradient rounded-pill pt-1 px-3 mb-3"></div>
+                            <h4 id="coffee_break" class="mb-3" dir="auto">Coffee Break</h4>
+                            <!-- <span>Zaid Restaurant</span> -->
                         </div>
                         <div class="position-relative mt-auto">
-                            <img class="img-fluid" src="img/product-3.jpg" alt="">
+                            <img class="img-fluid" src="img/product-3.jpg">
                             <div class="product-overlay">
-                                <a class="btn btn-lg-square btn-outline-light rounded-circle" href=""><i class="fa fa-eye text-primary"></i></a>
+                                <a class=" btn-outline-light rounded-circle" ><i class="text-primary"></i></a>
                             </div>
                         </div>
                     </div>
@@ -311,55 +272,19 @@
     <!-- Product End -->
 
 
-    <!-- Service Start -->
-    <div class="container-xxl py-6" >
+    <!-- catering Start -->
+    <div id="Catering" class="container-xxl py-6" >
         <div class="container">
             <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <p class="text-primary text-uppercase mb-2">// Our Services</p>
-                    <h1 class="display-6 mb-4">What Do We Offer For You?</h1>
-                    <p class="mb-5">Vascos Co</p>
-                    <div class="row gy-5 gx-4">
-                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
-                            <div class="d-flex align-items-center mb-3">
-                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
-                                    <i class="fa fa-bread-slice text-white"></i>
-                                </div>
-                                <h5 class="mb-0">Quality Products</h5>
-                            </div>
-                            <span>Vascos Co</span>
-                        </div>
-                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.2s">
-                            <div class="d-flex align-items-center mb-3">
-                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
-                                    <i class="fa fa-birthday-cake text-white"></i>
-                                </div>
-                                <h5 class="mb-0">Custom Products</h5>
-                            </div>
-                            <span>Vascos Co</span>
-                        </div>
-                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
-                            <div class="d-flex align-items-center mb-3">
-                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
-                                    <i class="fa fa-cart-plus text-white"></i>
-                                </div>
-                                <h5 class="mb-0">Online Order</h5>
-                            </div>
-                            <span>Vascos Co</span>
-                        </div>
-                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
-                            <div class="d-flex align-items-center mb-3">
-                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
-                                    <i class="fa fa-truck text-white"></i>
-                                </div>
-                                <h5 class="mb-0">Home Delivery</h5>
-                            </div>
-                            <span>Vascos Co</span>
-                        </div>
-                    </div>
+                <div class="text-center col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <p id="catering" class="text-primary text-uppercase mb-2" style="font-size:3vw"  dir="auto"></p>
+                    <h2 id="if_you_are" class="mb-0" style="color: rgb(255, 255, 255);font-family: Helvetica Neue,Helvetica,Arial,sans-serif; font-weight: normal;" dir="auto"></h2>
                 </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="row img-twice position-relative h-100">
+                <br>
+                <br>
+                
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="row img-twice position-relative h-50">
                         <div class="col-6">
                             <img class="img-fluid rounded" src="img/service-1.jpg" alt="">
                         </div>
@@ -370,207 +295,261 @@
                 </div>
             </div>
         </div>
+        <br>
+        <br>
+        
+        <h1 id="Offer_For_You" class=" text-primary display-6 mb-4" dir="auto" >What Do We Offer For You?</h1>
+  
+                    <div class="row gy-5 gx-4">
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                    <i class="fas fa-utensils text-white"></i>
+                                </div>
+                                <h5 id="Marketing_and_promotion" class="mb-0" style="color: #ffff;" dir="auto"></h5>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                    <i class="fas fa-utensils text-white"></i>
+                                </div>
+                                <h5 id="Organizing_annual_contracts" class="mb-0" style="color: #ffff;" dir="auto"></h5>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                    <i class="fas fa-utensils text-white"></i>
+                                </div>
+                                <h5 id="Managing_the_restaurant" class="mb-0" style="color: #ffff;" dir="auto"></h5>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                    <i class="fas fa-utensils text-white"></i>
+                                </div>
+                                <h5 id="Increase_Sales" class="mb-0" style="color: #ffff;" dir="auto"></h5>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                    <i class="fas fa-utensils text-white"></i>
+                                </div>
+                                <h5 id="Organizing_purchases_through" class="mb-0" style="color: #ffff;" dir="auto"></h5>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                    <i class="fas fa-utensils text-white"></i>
+                                </div>
+                                <h5 id="Reducing_expenses_and" class="mb-0" style="color: #ffff;" dir="auto"></h5>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                    <i class="fas fa-utensils text-white"></i>
+                                </div>
+                                <h5 id="Determine_the_cost" class="mb-0" style="color: #ffff;" dir="auto"></h5>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                    <i class="fas fa-utensils text-white"></i>
+                                </div>
+                                <h5 id="Maintenance_of_the" class="mb-0" style="color: #ffff;" dir="auto"></h5>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                    <i class="fas fa-utensils text-white"></i>
+                                </div>
+                                <h5 id="Organizing_and_auditing" class="mb-0" style="color: #ffff;" dir="auto"></h5>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                    <i class="fas fa-utensils text-white"></i>
+                                </div>
+                                <h5 id="Create_a_restaurant" class="mb-0" style="color: #ffff;" dir="auto"></h5>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                    <i class="fas fa-utensils text-white"></i>
+                                </div>
+                                <h5 id="Recruit_and_find" class="mb-0" style="color: #ffff;" dir="auto"></h5>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                    <i class="fas fa-utensils text-white"></i>
+                                </div>
+                                <h5 id="Training_employees_on" class="mb-0" style="color: #ffff;" dir="auto"></h5>
+                            </div>
+
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                    <i class="fas fa-utensils text-white"></i>
+                                </div>
+                                <h5 id="Creating_and_managing" class="mb-0" style="color: #ffff;" dir="auto"></h5>
+                            </div>
+                            
+                            
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                    <i class="fas fa-utensils text-white"></i>
+                                </div>
+                                <h5 id="Designing_and_printing" class="mb-0" style="color: #ffff;" dir="auto"></h5>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                    <i class="fas fa-utensils text-white"></i>
+                                </div>
+                                <h5 id="Marketing_services_through" class="mb-0" style="color: #ffff;" dir="auto"></h5>
+                            </div>
+                           
+                        </div>
+                   
+                        
+                        
+                    </div>
     </div>
-    <!-- Service End -->
+    <!-- catering End -->
+
+     <!-- Services Start -->
+     <div id="Services" class="container-xxl py-6 " >
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="row img-twice position-relative h-50">
+                        <div class="col-6">
+                            <img class="img-fluid rounded" src="img/service-11.jpg" alt="">
+                        </div>
+                        <div class="col-6 align-self-end">
+                            <img class="img-fluid rounded" src="img/service-12.jpg" alt="">
+                        </div>
+                    </div>
+                </div> 
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="h-100">
+                        <p id="title_our_services" class="text-primary text-uppercase mb-2 text-center" style="font-size:3vw "  dir="auto"‎>// About Us</p>
+                        <h1 id="hence_vasco" class="display-6 mb-4" style="color: rgb(255, 255, 255);font-family: Helvetica Neue,Helvetica,Arial,sans-serif; font-weight: normal;" dir="auto" >
+                            </h1>
+                            
+                        <div class="row g-2 mb-4 ">
+                            <div class="col-sm-6">
+                                <i id="providing_the_widest"  class="fa fa-check text-primary me-2" dir="auto">1</i>
+                            </div>
+                            <div class="col-sm-6">
+                                <i id="providing_the_most"  class="fa fa-check text-primary me-2" dir="auto">3</i>
+                            </div>
+                            <div class="col-sm-6">
+                                <i id="providing_a_dedicated"  class="fa fa-check text-primary me-2" dir="auto">2</i>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>                
+    </div>
+        <h1 id="services_For_You" class=" text-primary display-6 mb-4" dir="auto" >What Do We service For You?</h1>
+  
+                    <div class="row gy-5 gx-4" dir="auto"> 
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s" dir="auto">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                    <i class="fas fa-utensils text-white"></i>
+                                </div>
+                                <h5 id="Corporate_Events" class="mb-0" style="color: #ffff;" dir="auto"></h5>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                    <i class="fas fa-utensils text-white"></i>
+                                </div>
+                                <h5 id="Government_Events" class="mb-0" style="color: #ffff;" dir="auto"></h5>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                    <i class="fas fa-utensils text-white"></i>
+                                </div>
+                                <h5 id="launches_seminars" class="mb-0" style="color: #ffff;" dir="auto"></h5>
+                            </div>
+                    
+                        </div>
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s" dir="auto">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                    <i class="fas fa-utensils text-white"></i>
+                                </div>
+                                <h5 id="school_oriented" class="mb-0" style="color: #ffff;" dir="auto"></h5>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                    <i class="fas fa-utensils text-white"></i>
+                                </div>
+                                <h5 id="shows_conventions" class="mb-0" style="color: #ffff;" dir="auto"></h5>
+                            </div>
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                    <i class="fas fa-utensils text-white"></i>
+                                </div>
+                                <h5 id="family_functions" class="mb-0" style="color: #ffff;" dir="auto"></h5>
+                            </div>
+                        </div>
+                    </div>
+    </div>
+    <!-- Services End -->
 
 
-    <!-- Team Start -->
+    <!-- Our Customer Start -->
     <div class="container-xxl py-6">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <p class="text-primary text-uppercase mb-2">// Our branchs</p>
-                <!-- <h1 class="display-6 mb-4">We're Super Professional At Our Skills</h1> -->
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item text-center rounded overflow-hidden">
-                        <img class="img-fluid" src="img/team-1.jpg" alt="">
-                        <div class="team-text">
-                            <div class="team-title">
-                                <h5>vascosuae1</h5>
-                                <span>place</span>
-                            </div>
-                            <div class="team-social">
-                                <a class="btn btn-square btn-light rounded-circle" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-light rounded-circle" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-light rounded-circle" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item text-center rounded overflow-hidden">
-                        <img class="img-fluid" src="img/team-2.jpg" alt="">
-                        <div class="team-text">
-                            <div class="team-title">
-                                <h5>vascosuae2</h5>
-                                <span>place</span>
-                            </div>
-                            <div class="team-social">
-                                <a class="btn btn-square btn-light rounded-circle" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-light rounded-circle" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-light rounded-circle" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="team-item text-center rounded overflow-hidden">
-                        <img class="img-fluid" src="img/team-3.jpg" alt="">
-                        <div class="team-text">
-                            <div class="team-title">
-                                <h5>vascosuae3</h5>
-                                <span>place</span>
-                            </div>
-                            <div class="team-social">
-                                <a class="btn btn-square btn-light rounded-circle" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-light rounded-circle" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-light rounded-circle" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="team-item text-center rounded overflow-hidden">
-                        <img class="img-fluid" src="img/team-4.jpg" alt="">
-                        <div class="team-text">
-                            <div class="team-title">
-                                <h5>vascosuae4</h5>
-                                <span>place</span>
-                            </div>
-                            <div class="team-social">
-                                <a class="btn btn-square btn-light rounded-circle" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-light rounded-circle" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-light rounded-circle" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <p id="our_customers" class="text-primary text-uppercase mb-2 text-center" style="font-size:3vw "  dir="auto"‎>// Our Customers</p>
+                <br>
+                <!-- <h1 id="more_than_200+" class="display-6 mb-4" style="color: rgb(255, 255, 255);font-family: Helvetica Neue,Helvetica,Arial,sans-serif; font-weight: normal;" dir="auto">More Than 200+ Customers Agencies & Companies Trusted Us</h1> -->
+                <h2 id="more_than_200+" class="display-6 mb-4" style="color: rgb(255, 255, 255);font-family: Helvetica Neue,Helvetica,Arial,sans-serif; font-weight: normal;" dir="auto">More Than 200+ Customers Agencies & Companies Trusted Us</h2>
             </div>
         </div>
     </div>
-    <!-- Team End -->
-
-
-    <!-- Testimonial Start -->
-    <div class="container-xxl bg-light my-6 py-6 pb-0">
-        <div class="container">
-            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <p class="text-primary text-uppercase mb-2">// restaurant's Review</p>
-                <h1 class="display-6 mb-4">More Than 200+ restaurants Trusted Us</h1>
-            </div>
-            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
-                <div class="testimonial-item bg-white rounded p-4">
-                    <div class="d-flex align-items-center mb-4">
-                        <img class="flex-shrink-0 rounded-circle border p-1" src="img/testimonial-1.jpg" alt="">
-                        <div class="ms-4">
-                            <h5 class="mb-1">restaurant Name</h5>
-                            <!-- <span>Profession</span> -->
-                        </div>
-                    </div>
-                    <p class="mb-0">Vascos Co.</p>
-                </div>
-                <div class="testimonial-item bg-white rounded p-4">
-                    <div class="d-flex align-items-center mb-4">
-                        <img class="flex-shrink-0 rounded-circle border p-1" src="img/testimonial-2.jpg" alt="">
-                        <div class="ms-4">
-                            <h5 class="mb-1">restaurant Name</h5>
-                            <!-- <span>Profession</span> -->
-                        </div>
-                    </div>
-                    <p class="mb-0">Vascos Co.</p>
-                </div>
-                <div class="testimonial-item bg-white rounded p-4">
-                    <div class="d-flex align-items-center mb-4">
-                        <img class="flex-shrink-0 rounded-circle border p-1" src="img/testimonial-3.jpg" alt="">
-                        <div class="ms-4">
-                            <h5 class="mb-1">restaurant Name</h5>
-                            <!-- <span>Profession</span> -->
-                        </div>
-                    </div>
-                    <p class="mb-0">Vascos Co.</p>
-                </div>
-                <div class="testimonial-item bg-white rounded p-4">
-                    <div class="d-flex align-items-center mb-4">
-                        <img class="flex-shrink-0 rounded-circle border p-1" src="img/testimonial-4.jpg" alt="">
-                        <div class="ms-4">
-                            <h5 class="mb-1">restaurant Name</h5>
-                            <!-- <span>Profession</span> -->
-                        </div>
-                    </div>
-                    <p class="mb-0">Vascos Co.</p>
-                </div>
-            </div>
-            <!-- <div class="bg-primary text-light rounded-top p-5 my-6 mb-0 wow fadeInUp" data-wow-delay="0.1s"> -->
-                <!-- <div class="row align-items-center"> -->
-                    <!-- <div class="col-md-6"> -->
-                        <!-- <h1 class="display-4 text-light mb-0">Subscribe Our Newsletter</h1> -->
-                    <!-- </div> -->
-                    <!-- <div class="col-md-6 text-md-end"> -->
-                        <!-- <div class="position-relative"> -->
-                            <!-- <input class="form-control bg-transparent border-light w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email"> -->
-                            <!-- <button type="button" class="btn btn-dark py-2 px-3 position-absolute top-0 end-0 mt-2 me-2">SignUp</button> -->
-                        <!-- </div> -->
-                    <!-- </div> -->
-                <!-- </div> -->
-            <!-- </div> -->
-        </div>
-    </div>
-    <!-- Testimonial End -->
+         
+    <!-- Our Customer End -->
 
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-light footer my-6 mb-0 py-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container py-5">
+    <div id="Contact" class="container-fluid bg-dark text-light footer my-6 mb-0 py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5 ">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Office Address</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, Dabai, UAE</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>000000000000</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <h4 id="company_address" class="text-light mb-4">Company Address</h4>
+                    <p id="location"  class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, Dabai, UAE</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+971 50 4686051</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>zaid.malkat@gmail.com</p>
                     <div class="d-flex pt-2">
-                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square btn-outline-light rounded-circle me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href="https://www.facebook.com/zaid.ite.12/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href="https://www.facebook.com/zaid.ite.12/" target="_blank"><i class="fab fa-facebook-f"></i></a>
                     </div>
                 </div>
+        
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Quick Links</h4>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Our Services</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">Support</a>
+                    <h4 id="quick_access" class="text-light mb-4">Quick Links</h4>
+                    <a id="home1" class="btn btn-link" href="#Home">Home</a>
+                    <a id="about1" class="btn btn-link" href="#About">About Us</a>
+                    <a id="products1" class="btn btn-link" href="#Products">Product</a>
+                    <a id="catering2" class="btn btn-link" href="#Catering">Catering</a>
+                    <a id="services1" class="btn btn-link" href="#Services">Our Services</a>
+
+                    <a id="contact1" class="btn btn-link" href="#Contact">Contact Us</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Quick Links</h4>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Our Services</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">Support</a>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Photo Gallery</h4>
+                    <h4 id="photo_gallery" class="text-light mb-4">Photo Gallery</h4>
                     <div class="row g-2">
                         <div class="col-4">
-                            <img class="img-fluid bg-light rounded p-1" src="img/product-1.jpg" alt="Image">
+                            <img class="img-fluid bg-light rounded p-1" src="img/prodauct14.jpg" alt="Image">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid bg-light rounded p-1" src="img/product-2.jpg" alt="Image">
+                            <img class="img-fluid bg-light rounded p-1" src="img/prodauct15.jpg" alt="Image">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid bg-light rounded p-1" src="img/product-3.jpg" alt="Image">
+                            <img class="img-fluid bg-light rounded p-1" src="img/prodauct16.jpg" alt="Image">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid bg-light rounded p-1" src="img/product-2.jpg" alt="Image">
+                            <img class="img-fluid bg-light rounded p-1" src="img/prodauct17.jpg" alt="Image">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid bg-light rounded p-1" src="img/product-3.jpg" alt="Image">
+                            <img class="img-fluid bg-light rounded p-1" src="img/prodauct18.jpg" alt="Image">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid bg-light rounded p-1" src="img/product-1.jpg" alt="Image">
+                            <img class="img-fluid bg-light rounded p-1" src="img/prodauct19.jpg" alt="Image">
                         </div>
                     </div>
                 </div>
@@ -585,7 +564,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a href="#">Vascos Co.</a>, All Right Reserved.
+                    &copy; <a href="#">Zaid Restaurant.</a> <span id="all_right_reserved" dir="auto">All Right Reserved.</span>
                 </div>
             </div>
         </div>
@@ -594,8 +573,7 @@
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
-
+    <a href="#home" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
