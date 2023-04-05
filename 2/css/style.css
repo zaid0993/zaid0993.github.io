@@ -1,8 +1,8 @@
 /********** CSS **********/
 :root {
-    --primary: #EAA636;
-    --secondary: #545454;
-    --light: #FDF5EB;
+    --primary: #EAA636; 
+    --secondary:  #545454;
+    --light: #a77334;
     --dark: #1E1916;
 }
 
@@ -189,8 +189,19 @@ h6,
     height: 100%;
     top: 0;
     left: 0;
-    background: #FFFFFF;
-    transform: rotate(45deg);
+    border-style: solid ; 
+    border-color:  #a77334; 
+    background-image:auto;
+    background: linear-gradient(
+    to right,
+    #a77334 0%,
+    #1E1916 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size:initial;
+  transform: rotate(45deg);
 }
 
 .header-carousel .owl-nav .owl-prev,
@@ -225,10 +236,85 @@ h6,
 
 .fact-item:hover {
     margin-top: -10px;
-    background: #FFFFFF !important;
-    box-shadow: 0 0 45px rgba(0, 0, 0, .07);
+    background:
+    linear-gradient(
+    to right,
+    #a77334 0%,
+    #1E1916 100%);
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.07);
 }
 
+
+/*** Switch ***/
+
+ body {
+    background-color: #191818;
+    background-image: url(../img/16.jpg);
+    background-position: center;
+    background-size:contain;
+  }  
+   .switch-lang {
+    width: 110px;
+    text-align: left;
+    cursor: pointer;
+    z-index: 50;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  } 
+   .switch-lang:hover .lang-dropdown {
+    display: block;
+  }
+  .switcher-link {
+    color: rgb(139, 46, 46);
+  }
+  .switcher-link:hover {
+    color: rgb(52, 77, 148);
+  }
+  .current-lang {
+    border: none;
+    outline: none;
+    background: none;  }
+  .lang-flag {
+    width: 20px;
+    display: inline-block;
+  }
+  .lang-text {
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: top;
+    margin-top: 2px;
+  }
+  .lang-dropdown {
+    display: none;
+    background: #34495e;
+    border-radius: 5px;
+    margin-top: 2px;
+  }
+  .selecting-lang {
+    padding: 3px 5px 3px 5px;
+    cursor: pointer;
+  }
+  .selecting-lang:hover {
+    background: #22313f;
+  }
+  ul > :first-child {
+    border-radius: 5px 5px 0px 0px;
+  }
+  ul > :last-child {
+    border-radius: 0px 0px 5px 5px;
+  }
+  li {
+    list-style-type: none;
+  }
+  .menu-arrow {
+    display: inline-block;
+    width: 10px;
+    margin-left: 10px;
+    vertical-align: top;
+    margin-top: 6px;
+  }
+  
 
 /*** About ***/
 .img-twice::before {
@@ -251,7 +337,11 @@ h6,
 }
 
 .product-item:hover {
-    background: var(--primary) !important;
+    background:
+    linear-gradient(
+    to right,
+    #a77334 0%,
+    #1E1916 100%);
 }
 
 .product-item:hover * {
@@ -271,10 +361,11 @@ h6,
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(0, 0, 0, .5);
+    background: rgba(0, 0, 0, 0.5);
     overflow: hidden;
     opacity: 0;
     transition: .5s;
+    
 }
 
 .product-item:hover .product-overlay {
@@ -317,7 +408,12 @@ h6,
     display: flex;
     align-items: center;
     justify-content: center;
-    background: var(--primary);
+    background:
+    linear-gradient(
+    to right,
+    #a77334 0%,
+
+    #1E1916 100%);
     transition: .5s;
 }
 
@@ -342,7 +438,11 @@ h6,
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item {
-    background: var(--primary) !important;
+    background:
+    linear-gradient(
+    to right,
+    #a77334 0%,
+    #1E1916 100%);
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item * {
@@ -366,7 +466,11 @@ h6,
     border-radius: 50px;
     font-size: 22px;
     color: var(--light);
-    background: var(--primary);
+    background:
+    linear-gradient(
+    to right,
+    #a77334 0%,
+    #1E1916 100%);
     transition: .5s;
 }
 
